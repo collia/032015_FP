@@ -74,6 +74,7 @@
 
 3. Количество жуков по регионах:
 
+<code>
 ./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt                         
 Loaded 6 titles from database
 
@@ -116,7 +117,7 @@ Loaded 6 titles from database
 Таруса - 75
 Тотьма - 90
 Дания - 100
-
+</code>
 
 4. Совокупный риск исчезновения
 
