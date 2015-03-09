@@ -120,15 +120,15 @@
 
 4. Совокупный риск исчезновения
 
-	./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt --state data/States.txt 
-	Loaded 6 titles from database
-	
-	Аурата сетуньская - 1300
-	Мелолонтий западный - 1814
-	Семипунктата Коха - 1597
-	Десятилиньята лепая - 496
-	Гортикола филоперьевая - 2150
-	Популий грыжомельский - 1743
+        ./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt --state data/States.txt 
+        Loaded 6 titles from database
+        
+        Аурата сетуньская - 1300
+        Мелолонтий западный - 1814
+        Семипунктата Коха - 1597
+        Десятилиньята лепая - 496
+        Гортикола филоперьевая - 2150
+        Популий грыжомельский - 1743
 	
 	
 
