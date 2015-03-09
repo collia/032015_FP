@@ -7,25 +7,28 @@
 
 ### Сборка проекта:
 
-cabal configure
-cabal build
+`cabal configure`
+`cabal build`
 
 ### Использование программы
 Добавление новых записей в базу членистоногих и сохранение в CSV файл:
 
-./dist/build/march2015/march2015  --output out.csv --add "data/Aurata.dat data/Melolontii.dat data/Semipunctata.dat data/Desetilinjata.dat data/Horticola.dat data/Populii.dat"
+`./dist/build/march2015/march2015  --output out.csv --add "data/Aurata.dat data/Melolontii.dat data/Semipunctata.dat data/Desetilinjata.dat data/Horticola.dat data/Populii.dat"`
 
 можно добавлять по одному файлу, если запись с таким заголовком есть в таблице - она будет перезаписана.
 
 Подсчет общего числа членистоногих для каждого региона:
-./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt   
+
+`./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt`
 
 Подсчет риска исчезновения для каждого жука
-./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt --state data/States.txt 
+
+`./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt --state data/States.txt `
 
 ### Результаты
 
 1. out.csv
+
 ;Аурата сетуньская;Мелолонтий западный;Семипунктата Коха;Десятилиньята лепая;Гортикола филоперьевая;Популий грыжомельский
 Индия;Сравнительно немного;;;Единицы;Сравнительно немного;
 Парагвай;;Очень мало;;Единицы;;
@@ -69,7 +72,8 @@ cabal build
 
 
 3. Количество жуков по регионах:
-./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt                         
+
+`./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt                         
 Loaded 6 titles from database
 
 Индия - 101
@@ -110,12 +114,12 @@ Loaded 6 titles from database
 Ломбардия - 10
 Таруса - 75
 Тотьма - 90
-Дания - 100
+Дания - 100`
 
 
 4. Совокупный риск исчезновения
 
-./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt --state data/States.txt 
+`./dist/build/march2015/march2015  --output out.csv --freq data/Frequencies.txt --state data/States.txt 
 Loaded 6 titles from database
 
 Аурата сетуньская - 1300
@@ -123,7 +127,7 @@ Loaded 6 titles from database
 Семипунктата Коха - 1597
 Десятилиньята лепая - 496
 Гортикола филоперьевая - 2150
-Популий грыжомельский - 1743
+Популий грыжомельский - 1743`
 
 
 
